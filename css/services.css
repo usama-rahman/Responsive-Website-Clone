@@ -1,0 +1,72 @@
+
+
+.serviceHeader{
+    display: grid;
+    justify-content: center;
+    color: #485664;
+}
+.serviceHeader h2{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+.serviceHeader p{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Desktop Navigation === */
+
+@media screen and (min-width: 1200px) {
+
+}
+
+/* === Tablet Navigation === */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+/* === Mobile Navigation === */
+
+@media screen and (max-width: 600px) {
+    
+}

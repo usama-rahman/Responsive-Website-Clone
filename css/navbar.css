@@ -1,0 +1,141 @@
+
+
+.header .logo h2{
+    font-weight: 300;  
+}
+.header .logo h2 span{
+    font-weight: 520;
+}
+.header a{
+    text-decoration: none;
+    color: #acb2c8;
+    font-family: poppins, sans-serif;
+}
+
+.getStart{
+    font-family: poppins, sans-serif;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #0ea2bd;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    align-items: center;
+}
+.getStart:hover{
+    background-color: #41adc0;
+    cursor: pointer;
+}
+
+/* Desktop Navbar */
+
+    .navbar{
+        position: relative;
+    }
+    .navbar ul{
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        display: flex;
+        list-style: none;
+    }
+    .navbar li{
+        position: relative;
+    }
+    .navbar a{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 20px;
+        font-weight: 400;
+        transition: .3s;
+    }  
+    .dropdown a:hover{
+      background-color: #0ea2bd;
+      color: #fff;
+    }
+    .active{
+        background-color: #0ea2bd;
+        color: #fff !important;
+    }
+    .dropdown ul{
+      display: block;
+      position: absolute;
+      visibility: hidden;
+      background-color: #485664;
+      width: 200%;
+    }
+    .dropdown:hover{
+        background-color: #485664;
+    }
+    .dropdown:hover>ul{
+      visibility: visible;
+    }
+    .megamenu{
+        width: 100%;
+    }
+    .megamenu ul{
+        display: block;
+        position: absolute;
+        visibility: hidden;
+        background-color: #485664;
+        width: 850%;
+        margin-left: -520%;
+    }
+    .megamenu li{
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+    .megamenu:hover{
+        background-color: #485664; 
+    }
+    .megamenu a:hover{
+        background-color: #0ea2bd;
+        color: #fff;
+      }
+    .megamenu:hover>ul{
+        visibility: visible;
+    }
+
+
+
+    .dropdownnext ul{
+        display: block;
+        position: absolute;
+        visibility: hidden;
+        background-color: #485664;
+        width: 200%;
+    }
+    .dropdownnext:hover{
+        background-color: #485664; 
+    }
+    .dropdownnext a:hover{
+        background-color: #0ea2bd;
+        color: #fff;
+    }
+    .dropdownnext:hover>ul{
+        visibility: visible;
+    }
+
+    .deepdropdown ul{
+        display: block;
+        position: absolute;
+        visibility: hidden;
+        width: 100%;
+        margin-left: 100%;
+        margin-top: -24%;
+    }
+    .deepdropdown:hover>ul{
+        visibility: visible;
+    }
+
+
+@media(max-width : 1279Px){
+    .navbar{
+        display: none;
+    }
+}
+
+

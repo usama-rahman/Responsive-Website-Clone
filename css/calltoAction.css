@@ -1,0 +1,104 @@
+.calltoActionArea{
+    background: rgba(72,86,100, 0.1);
+    border-radius: .5rem;
+    padding: 4rem;
+}
+.calltoActionContent{
+    font-family:   'Source Sans Pro',sans-serif;
+    color: #485664;
+    
+}
+.calltoActionContent h3{
+    font-weight: 500;
+    font-weight: bolder ;
+}
+.calltoActionContent h3 em{
+    font-style: normal;
+    position: relative;
+    /* border-bottom:5px solid red; */
+}
+.calltoActionContent h3 em::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    height: 10px;
+    background: #0ea2bd;
+    z-index: -1;
+    opacity: .5;
+}
+
+
+.calltoActionContent p{
+    font-weight: 400;
+}
+.calltoActionImg{
+    padding: 2rem;
+}
+
+.calltoActionImg img{
+    width: 350px;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Desktop Navigation === */
+
+@media screen and (min-width: 1200px) {
+
+}
+
+/* === Tablet Navigation === */
+
+@media screen and (max-width: 1200px) {
+
+    .calltoActionImg{
+        padding: 2rem;
+    }
+    .calltoActionImg img{
+        width: 250px;
+        border-radius: 1rem;
+    }
+
+}
+
+/* === Mobile Navigation === */
+
+@media screen and (max-width: 600px) {
+    .calltoActionArea{
+        display: grid !important;
+        justify-content: center;  
+        width: 100%;
+        margin: auto;
+        padding: 2rem;
+
+    }
+    .calltoActionImg{
+        order: -1;
+    }
+    .calltoActionContent h3{
+        font-size: 48px;
+    }
+
+}

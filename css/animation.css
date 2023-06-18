@@ -1,0 +1,235 @@
+  
+.animationGetStarted{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} 
+
+.animationGetStarted a {
+    text-decoration: none;
+    font-weight: 500;
+    justify-content: center;
+    display: flex; 
+}
+.animationGetStarted a span{
+    color: #485664 !important; 
+}
+
+.animationGetStarted a i{
+    color: #0ea2bd;
+    font-size: 32px; 
+}
+.animationGetStarted a span:hover{
+    color: #41adc0 !important;
+    transition: .3s;
+}
+.animationGetStarted span{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.animationGetStarted button{
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #0ea2bd;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    border: none;
+    align-items: center;
+
+}
+.animationGetStarted button:hover{
+    background-color: #41adc0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+.avobeAboutUs{
+    width: 70%;
+}
+
+.avobeAboutUsItem{
+    margin: 0px 10px;
+    padding: 20px 30px;
+}
+.avobeAboutUsItem p{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 24px;
+    font-size: 14px;
+}
+.avobeAboutUsItem:hover{
+    background-color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: -10px -3px 80px 1px #48566430 ;
+}
+
+
+.avobeAboutUsItem:hover>h4{
+    color: #0ea2bd;
+}
+
+
+
+
+
+
+   /* Desktop Navigation */
+
+@media screen and (min-width: 1200px) {
+    
+    .animationImageSection{
+        width: 60%;
+        margin: auto;
+        padding-top: 150px;
+        display: grid;
+    }
+    .animationImageSection img{
+        width: 50%;
+        margin: auto;
+        display: grid;
+    }
+    .animationContent{
+        font-family: poppins, sans-serif;
+        color: #475766;
+        display: grid;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .animationContent h2{
+        font-size: 3rem;
+        font-weight: 300;
+        margin: auto;
+        display: flex;
+        padding-top: 100px;
+    }
+    .animationContent span{
+        color: #0ea2bd;
+    }
+    .animationContent p{
+        margin-top: 20px;
+        color: #6d7883;
+        font-size: 18px;
+        text-align: center;
+    }
+ 
+
+}
+
+/* Tablet Navigation */
+
+
+@media screen and (max-width: 1200px) {
+
+    .animationImageSection{
+        padding-top: 150px;
+    }
+    .animationContent{
+        font-family: poppins, sans-serif;
+        color: #475766;
+    }
+    .animationContent h2{
+        font-size: 3rem;
+        font-weight: 300;
+        margin: auto;
+        display: flex;
+        padding-top: 100px;
+    }
+    .animationContent span{
+        color: #0ea2bd;
+    }
+    .animationContent p{
+        margin-top: 20px;
+        color: #6d7883;
+        font-size: 18px;
+        text-align: center;
+    }
+    .avobeAboutUs{
+        width: 70%;
+    }
+    .avobeAboutUs i{
+        font-size: 36px;
+        padding-bottom: 1rem;
+    }
+    .avobeAboutUs h4{
+        padding-bottom: .5rem;
+    }
+
+  }
+
+
+ /* Mobile Navigation */
+
+  @media screen and (max-width: 600px) {
+    
+    .animationImageSection {
+        width: 95%;
+        margin: auto;
+        padding-top: 150px;
+        display: grid;
+      }
+      .animationImageSection img {
+        width: 80%;
+        margin: auto;
+        display: grid;
+      }
+    .animationContent h2{
+        font-size: 2rem;
+        font-weight: 300;
+        margin: auto;
+        display: grid;
+        padding-top: 50px;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .avobeAboutUs{
+        width: 90%;
+    }
+    .avobeAboutUs i{
+        font-size: 36px;
+        padding-bottom: 1rem;
+    }
+    .avobeAboutUs h4{
+        padding-bottom: .5rem;
+    }
+  }
+
+
+
+
+
+/* avobeAboutUs section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

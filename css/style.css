@@ -1,0 +1,82 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* === Desktop Navigation === */
+
+    @media screen and (min-width: 1200px) {
+
+    }
+
+ /* === Tablet Navigation === */
+
+    @media screen and (max-width: 1200px) {
+
+    }
+
+/* === Mobile Navigation === */
+
+    @media screen and (max-width: 600px) {
+        
+    }
+
+
+
+
+
+
+
+.popins{
+    font-family: popins, sans-serif;
+}
+.primaryColor{
+    color: #485664;
+}
+.secondaryColor{
+    color:#0ea2bd ;
+}
+.megamenu-a{
+    width: 60%;
+}
+.thirdColor{
+    color: rgba(59, 83, 128, .7);
+}
+.megamenuli{
+    margin-left: -30px;
+    
+}
+.dropdownnext1{
+    width: 140%;
+}
+
+.menuHover:hover{
+    border-bottom: 2px solid #0ea2bd;
+    transition: ease-in-out .3s;
+    border-radius: 2px;
+}
+.customa{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #485664;
+    font-size: 24px;
+    font-weight: 400;
+}
+.myBtn{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #0ea2bd;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    border: none;
+    align-items: center;
+}
+
+
+
+
+
+

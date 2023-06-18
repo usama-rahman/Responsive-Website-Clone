@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Source+Sans     +3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet"/>
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Css  -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/brand.css">
+    <link rel="stylesheet" href="css/calltoAction.css">
+    <link rel="stylesheet" href="css/onFocus.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/services.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- header -->
+
+    <header class="header fixed-top">
+        <div class="headerDiv d-flex justify-content-between align-items-center m-2">
+
+            <!--  Logo  -->
+
+            <a href="index.html" class="logo">
+                <h2 class="h2 primaryColor" >HeroBiz <span class="secondaryColor">.</span></h2>
+            </a>
+
+            <!-- Menu -->
+
+            <nav class="navbar">
+                <ul>
+                    <li class="dropdown">
+                        <a href=""><span>Home</span><i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="" class="active">Home 1 - index.html</a></li>
+                            <li><a href="">Home 2 - index.html</a></li>
+                            <li><a href="">Home 3 - index.html</a></li>
+                            <li><a href="">Home 4 - index.html</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menuHover nav-link scrollto" href="index.html#about">About</a></li>
+                    <li><a class="menuHover" href="index.html#services">Services</a></li>
+                    <li><a class="menuHover" href="">Portfolio</a></li>
+                    <li><a class="menuHover" href="">Team</a></li>
+                    <li><a class="menuHover" href="">Blog</a></li>
+                    <li class="megamenu"><a class="megamenuBtn"><span>Mega Menu</span><i class="fa-solid fa-angle-down megamenuli"></i></a>
+                        <ul class="p-2 thirdColor">
+                            <li>
+                                <a class="megamenu-a" href="#">Column 1 link 1</a>
+                                <a class="megamenu-a" href="#">Column 2 link 1</a>
+                                <a class="megamenu-a" href="#">Column 3 link 1</a>
+                                <a class="megamenu-a" href="#">Column 4 link 1</a>
+
+                            </li>
+                            <li>
+                                <a class="megamenu-a" href="#">Column 1 link 2</a>
+                                <a class="megamenu-a" href="#">Column 2 link 2</a>
+                                <a class="megamenu-a" href="#">Column 3 link 2</a>
+                                <a class="megamenu-a" href="#">Column 4 link 2</a>
+
+                            </li>
+                            <li>
+                                <a class="megamenu-a" href="#">Column 1 link 3</a>
+                                <a class="megamenu-a" href="#">Column 2 link 3</a>
+                                <a class="megamenu-a" href="#">Column 3 link 3</a>
+                                <a class="megamenu-a" href="#">Column 4 link 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdownnext dropdownnext1"><a href="#" class=""><span>Drop Down</span><i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="deepdropdown"><a href="#"><span>Deep Drop Down</span><i class="fa-solid fa-angle-down"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menuHover" href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Get Start Btn -->
+
+            <button class="getStart text-decoration-none px-1">Get Started</button>
+
+        </div>
+    </header>
+
+<!-- Animantion Section-->
+
+    <section class="animation">
+
+        <div class="animationImageSection w-80 m-auto d-grid ">
+
+            <img class="w-70 m-auto" src="Image/hero-carousel-3.svg" alt="">
+
+            <div class="animationContent d-grid m-auto align-items-center justify-content-center">
+                <h2 class="h1 pt-5">Welcome to <span> &nbsp; HeroBiz</span></h2>
+                <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
+                <div class="animationGetStarted">
+                    <button>Get Started</button>
+                    <a href="#"><i class="fa-regular fa-circle-play"></i><span>Watch Video</span></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="avobeAboutUs justify-content-center m-auto pt-5 my-5 d-md-grid d-lg-flex d-sm-grid">
+            
+            <div class="avobeAboutUsItem">
+                <div class="secondaryColor h2"><i class="fa-solid fa-chart-line"></i></div>
+                <h4><a class="customa" href="">Lorem Ipsum</a></h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+            <div class="avobeAboutUsItem">
+                <div class="secondaryColor h2"><i class="fa-regular fa-square"></i></i></div>
+                <h4><a class="customa" href="">Sed ut perspici </a></h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+        
+       
+            <div class="avobeAboutUsItem">
+                <div class="secondaryColor h2"><i class="fa-solid fa-calendar-week"></i></div>
+                <h4><a href="" class="customa">Magni Dolores</a></h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+            <div class="avobeAboutUsItem">
+                <div class="secondaryColor h2"><i class="fa-solid fa-podcast"></i></div>
+                <h4><a class="customa" href="">Nemo Enim</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+    
+        </div>
+    </section>
+
+
+<!-- About Section -->
+
+    <section class="about" id="about">
+
+
+        <div class="aboutUs d-grid justify-content-center m-auto text-center pt-4">
+            <h3> About Us</h3> 
+            <div>
+                <p class="pt-2" >Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+            </div>
+        </div>
+
+
+
+        <div class="mainAboutUs">
+
+            <div class="imgAboutUs">
+                <img src="Image/about.jpg" alt="">   
+            </div>
+
+            <div class="mainContent">
+
+                <div class="textAboutUs">
+                    <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
+                </div>
+
+                <div class="aboutUsBtn">
+                    <button class="aboutUsBtn1">Saepe fuga</button>
+                    <button>Voluptates</button>
+                    <button>Corrupti</button>
+                </div>
+
+                <div class="aboutUsContent">
+                    <p class="fst-italic pt-4">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                    <div class="aboutUsContentDetailes">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-check" ></i>
+                            <p class="px-2 mb-0  fw-bold">Repudiandae rerum velit modi et officia quasi facilis</p>
+                        </div>
+                        <p class="mb-4">Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                    </div>
+                    <div class="aboutUsContentDetailes">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="px-2 mb-0 fw-bold">Incidunt non veritatis illum ea ut nisi</p>
+                        </div>
+                        <p class="mb-4">Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                    </div>
+                    <div class="aboutUsContentDetailes">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="px-2 mb-0  fw-bold">Omnis ab quia nemo dignissimos rem eum quos..</p>
+                        </div>
+                        <p class="mb-4">Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
+                    </div>
+                </div>
+            
+        </div>
+
+    </section>
+
+
+ <!-- Brand Section -->
+
+
+    <section class="brands" id="brands">
+        <div class="container brandsSlide d-flex justify-content-between align-items-center">
+
+
+            <img class="brandImg" src="Image/client-1.png" alt="">
+            <img class="brandImg" src="Image/client-2.png" alt="">
+            <img class="brandImg item1" src="Image/client-3.png" alt="">
+            <img class="brandImg item2" src="Image/client-4.png" alt="">
+            <img class="brandImg item3" src="Image/client-5.png" alt="">
+            <img class="brandImg item4" src="Image/client-6.png" alt="">
+
+          
+        </div>
+    </section>
+
+<!-- Call to Action-->
+
+    <section class="calltoAction" id="calltoAction">
+        <div class=" container myCalltoAction">
+            <div class="calltoActionArea pt-4 justify-content-between d-flex align-items-center">
+                <div class="calltoActionContent">
+                    <h3 class="h1">Alias sunt quas <em>Cupiditate</em> oluptas hic minima</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button class="myBtn mt-3">Call To Action</button>
+                </div>
+                <div class="calltoActionImg">
+                    <img class="" src="Image/cta.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- On Focus  -->
+
+    <section class="onfocus" id="onfocus">
+
+        <div class="onfocusContainer d-flex justify-content-between">
+
+            <div class="onfocusPlay d-flex justify-content-center align-items-center">
+
+                <div class="onfocusBigCircle">
+                    <div class="onfocusCircle d-flex"> 
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>  
+                
+            </div>
+
+            <div class="onfocusContent">
+
+                <div class="onfocusMainContent">
+
+                    <h3 class="h2" >Voluptatem dignissimos provident quasi corporis</h3>
+                    <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+                    <div class="onfocusMainContentOK">
+                        <ul>
+                            <li><i class="fa-regular fa-circle-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa-regular fa-circle-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa-regular fa-circle-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                        </ul>
+                    </div>
+
+                    <button class="myBtn">Read More<i class="fa-solid fa-arrow-right" ></i></button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- features Section  -->
+
+    <section class="features" id="features">
+
+        <div class="featuresContainer container">
+
+            <div class="featuresIcon ">
+
+                <ul class=" d-lg-flex justify-content-between ">
+
+                    <li class="colorfeaturesIcon"><a href="" class=""><i class="fa-solid fa-binoculars white"></i><h4 class="colorfeaturesIconH4">Modinest</h4></a></li>
+                    <li class=""><a href="" class=""><i class="fa-solid fa-cube indigo"></i><h4>Undaesenti</h4></a></li>
+                    <li class=""><a href="" class=""><i class="fa-regular fa-sun teal"></i><h4>Pariatur</h4></a></li>
+                    <li class=""><a href="" class=""><i class="fa-solid fa-vector-square red"></i><h4>Nostrum</h4></a></li>
+                    <li class=""><a href="" class=""><i class="fa-solid fa-chalkboard blue"></i><h4>Adipiscing</h4></a></li>
+                    <li class=""><a href="" class=""><i class="fa-solid fa-map orange"></i><h4>Reprehit</h4></a></li>
+
+
+                </ul>
+
+            </div>
+
+
+            <div class="featuresContent">
+                <div class="featuresMainContent">
+                    <h3>Modinest</h3>
+                    <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="featuresMainContentOK">
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+
+                        </ul>
+                    </div>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+                </div>
+                <div class="featuresMainImage">
+                    <img src="Image/features-1.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Service Section -->
+
+
+    <section id="services" class="services">
+
+        <div class="container serviceArea">
+
+            <div class="serviceHeader">
+                <h2>Our Services</h2>
+                <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
+            </div>
+
+            <div class="serviceSection">
+
+
+                <!-- item = 1 -->
+
+                <div class="service-item">
+                    <div class="serviceImg">
+                        <img src="Image/services-1.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <div>
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <a href="">Nesciunt Mete</a>
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+                    </div>
+                </div>
+
+                       <!-- item = 2 -->
+
+                <div class="service-item">
+                    <div class="serviceImg">
+                        <img src="Image/services-2.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <div>
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <a href="">Nesciunt Mete</a>
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+                    </div>
+                </div>
+
+                    <!-- item = 3 -->
+
+                <div class="service-item">
+                    <div class="serviceImg">
+                        <img src="Image/services-3.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <div>
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <a href="">Nesciunt Mete</a>
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+                    </div>
+                </div>
+
+                    <!-- item = 4 -->
+
+
+                <div class="service-item">
+                    <div class="serviceImg">
+                        <img src="Image/services-4.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <div>
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <a href="">Nesciunt Mete</a>
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+                    </div>
+                </div>
+
+                    <!-- item = 5 -->
+
+
+                <div class="service-item">
+                    <div class="serviceImg">
+                        <img src="Image/services-5.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <div>
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <a href="">Nesciunt Mete</a>
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+                    </div>
+                </div>
+
+                    <!-- item = 6 -->
+
+                <div class="service-item">
+                    <div class="serviceImg">
+                        <img src="Image/services-6.jpg" alt="">
+                    </div>
+                    <div class="serviceDetails">
+                        <div>
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <a href="">Nesciunt Mete</a>
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+                    </div>
+                </div>
+
+                    <!-- item = End -->
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+</body>
+</html>

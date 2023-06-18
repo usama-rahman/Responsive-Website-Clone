@@ -1,0 +1,262 @@
+
+.featuresContainer {
+        margin: auto;
+
+}
+.featuresIcon{
+    margin-top: 3%;
+}
+
+.featuresIcon ul {
+  margin: 20px;
+  text-decoration: none;
+  list-style: none;  
+}
+.featuresIcon ul li {
+    display: flex;
+    position: relative;
+}
+.featuresIcon ul li a{
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+    /* background-color: #fff; */
+    font-size: 20px;
+    box-shadow: -10px -3px 80px 1px #48566430 ;
+    padding: 20px;
+    position: relative;
+}
+.featuresIcon ul li a i{
+    margin: auto;
+    padding: 2px;
+    font-size: 24px;
+
+}
+.colorfeaturesIcon{
+  background-color: #0ea2bd !important;
+}
+
+.featuresIcon .white{
+  color: #fff;
+}
+.featuresIcon .indigo{
+  color: indigo;
+}
+.featuresIcon .teal{
+  color: teal;
+}
+.featuresIcon .indigo{
+  color: indigo;
+}
+.featuresIcon .red{
+  color: red;
+}
+.featuresIcon .blue{
+  color: blue;
+}
+.featuresIcon .orange{
+  color: orange;
+}
+.featuresIcon ul li a h4{
+    color: #485664;
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+
+/* === Desktop Navigation === */
+
+@media screen and (min-width: 1200px) {
+
+}
+
+/* === Tablet Navigation === */
+
+@media screen and (max-width: 1200px) {
+    .featuresIcon ul{
+      width: 100%;
+      display: grid;
+      grid-template-areas: "a a a";
+      gap: 15px;
+      margin: 0px;
+      padding-left: 5px;
+      padding-top: 5px;
+      justify-content: center;
+      align-items: center;
+    }
+    .featuresIcon ul li {
+      position: relative;
+      background-color: #fff;
+      box-shadow: -10px -3px 80px 1px #48566430 ;
+    }
+    .featuresContainer {
+      width: 100%;
+      margin: auto;
+    }
+    .featuresIcon ul li a{
+    box-shadow: none;
+  }
+
+}
+
+/* === Mobile Navigation === */
+
+@media screen and (max-width: 600px) {
+    
+    .featuresIcon ul{
+      width: 80%;
+      display: grid;
+      grid-template-areas: "a a a";
+      gap: 15px;
+      margin: 0px;
+      padding-left: 5px;
+      padding-top: 5px;
+    }
+    .featuresIcon ul li {
+      position: relative;
+      background-color: #fff;
+      box-shadow: -10px -3px 80px 1px #48566430 ;
+    }
+    .featuresIcon {
+      width: 70%;
+      margin: 0;
+      padding-top: 20px;
+      padding-left: 10px;
+    }
+    .featuresIcon ul li a{
+     box-shadow: none;
+  }
+
+}
+
+
+
+
+
+
+ /* =================================================================================================================================
+
+            featuresContent
+ 
+ ======================================================================================================================================================================================*/
+
+
+
+
+.featuresContent{
+  justify-content: space-between;
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+.featuresMainContent{
+  width: 70%;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.featuresMainContent h3{
+  color: #485664;
+  font-size: 34px;
+  font-weight: 600;
+}
+.featuresMainContent p{
+  margin-bottom: 1rem;
+}
+.featuresMainContentOK ul{
+    list-style: none;
+}
+.featuresMainContentOK ul li{
+  margin-bottom: 1rem;
+}
+.featuresMainContentOK ul li i{
+  font-size: 24px;
+  margin-right: 4px;
+  color: #0ea2bd;
+}
+
+
+
+.featuresMainImage{
+  width: 30%;
+  display: block;
+  position: relative;
+  align-items: center;
+  margin-top: 1rem;
+}
+.featuresMainImage img{
+  width: 100%;
+}
+
+
+ /* === Desktop Navigation === */
+
+ @media screen and (min-width: 1200px) {
+
+ }
+
+/* === Tablet Navigation === */
+
+ @media screen and (max-width: 1200px) {
+
+
+  .featuresContent{
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    margin: auto;
+ 
+  }
+  .featuresMainContent{
+    width: 100%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  .featuresMainContent h3{
+    color: #485664;
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .featuresMainImage{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    margin-top: 1rem;
+    order: -1;
+    padding-top: 1rem;
+  }
+  .featuresMainImage img{
+    width: 100%;
+  }
+
+ }
+
+/* === Mobile Navigation === */
+
+ @media screen and (max-width: 600px) {
+     
+ }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

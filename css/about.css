@@ -1,0 +1,171 @@
+
+
+.aboutUs h3{
+    font-family: 'popins',sans-serif;
+    color: #485648;
+    font-weight: 100;
+    font-size: 48px;
+}
+.aboutUs p{
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 80%;
+    margin: auto;
+    font-size: 16px;
+    color: #8f9fae;
+}
+
+ /* main Content */
+
+.mainAboutUs{
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+.imgAboutUs{
+    background-image: url(../Image/about-bg.png);
+    width: 300px;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+}
+.imgAboutUs img{
+    padding: 60px;
+    width: 450px;
+    display: inline-block;
+    position: relative;
+}
+.mainContent{
+    padding-left: 15%;
+    padding-top: 40px;
+    font-family: 'popins', sans-serif;
+    width: 70%;
+}
+.mainContent .textAboutUs h3{
+    color: #485648;   
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.aboutUsBtn{
+    border-bottom: 1px solid #62636220;
+}
+.aboutUsBtn button{
+    text-decoration: none;
+    font-family: 'popins', sans-serif;
+    background-color: #fff ;
+    padding: 10px;
+    border: none;
+    color: #485648; ;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.aboutUsBtn button{
+    cursor: pointer;
+}
+.aboutUsBtn1{
+    border-bottom: 3px solid #0ea2bd !important;
+    color: #0ea2bd !important;
+}
+
+.aboutUsContentDetailes i{
+    color: #0ea2bd;
+
+}
+
+
+
+
+
+
+
+
+/* === Desktop Navigation === */
+
+    @media screen and (min-width: 1200px) {
+        .mainAboutUs{
+            width: 80%;
+            
+        }
+        .imgAboutUs img{
+            padding: 40px;
+            width: 170%;
+            display: inline-block;
+            position: relative;
+        }
+    }
+
+
+
+
+
+/* === Tablet Navigation === */
+
+    @media screen and (max-width: 1200px) {
+        .aboutUs p{
+            max-width: 90%;
+        }
+        .mainAboutUs{
+            display: grid;
+        }
+        .imgAboutUs img{
+            padding: 40px;
+            width: 240%;
+            
+        }
+        .mainContent {
+            /* padding-left:100%; */
+            /* padding-top: 40px; */
+            font-family: 'popins', sans-serif;
+            width: 100%;
+        }
+        .mainContent{
+            padding-left: 5%;
+            
+        }
+        .mainAboutUs {
+            width: 100%;
+            justify-content: space-between;
+            display: grid;
+            margin: auto;
+            padding-top: 40px;
+          }
+    }
+
+
+
+
+
+
+
+/* === Mobile Navigation === */
+
+    @media screen and (max-width: 600px) {
+        .aboutUs p{
+            max-width: 90%;
+        }
+        .imgAboutUs img{
+            padding: 2rem;
+            width: 130%;  
+        }
+        .mainAboutUs{
+            display: grid;
+        }
+        .aboutUsBtn{
+            display: flex;
+            justify-content: space-between;
+        }
+        .aboutUsBtn button { 
+            font-size: 16px;
+            font-weight: 200;
+            margin-right: 0px;
+            font-weight: bold;
+            
+        }
+
+
+    }
+
+
+
