@@ -1,5 +1,4 @@
 
-
 .serviceHeader{
     display: grid;
     justify-content: center;
@@ -18,6 +17,38 @@
     justify-content: center;
 }
 
+.serviceSection{
+    width: 100%;
+    display: grid;
+    grid-template-areas: "a a a";
+    gap: 15px;
+    margin: 0px;
+    padding-left: 5px;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .service-item{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .serviceImg img{
+    width: 100%;
+    border-radius: 2%;
+  }
+.serviceDetails{
+   width: 60%;
+   margin: auto;
+   display: grid;
+   background-color: #485664;
+   border-radius: 2%;
+  }
+  .serviceDetails div,a ,p{
+    margin: auto;
+   }
 
 
 
