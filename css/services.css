@@ -10,11 +10,11 @@
     font-size: 48px;
     font-weight: 300;
     margin-bottom: 20px;
+    margin-top: 25%;
 
 }
 .serviceHeader p{
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .serviceSection{
@@ -34,22 +34,63 @@
     display: grid;
     align-items: center;
     justify-content: center;
+    margin-top: 10%;
   }
   .serviceImg img{
     width: 100%;
     border-radius: 2%;
+    overflow: hidden;
   }
 .serviceDetails{
-   width: 60%;
-   margin: auto;
-   display: grid;
-   background-color: #485664;
-   border-radius: 2%;
-  }
-  .serviceDetails div,a ,p{
-    margin: auto;
-   }
+  
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 50px 30px;
+    margin: -100px 30px 0 30px;
+    transition: 0.3s;
+    background: #fefefea5;
+    position: relative;
+    text-align: center;
+    border-radius: 2%;
+    box-shadow: 0px 0 25px #48566430;
 
+  }
+
+
+ .serviceDetails .serviceDetailsIcon{
+    margin: 0;
+    width: 72px;
+    height: 72px;
+    background: #0ea2bd;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 28px;
+    transition: 0.3s;
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    border: 6px solid #fff;
+  }
+
+
+
+  .serviceDetails a {
+    color: #485664;
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  
+  .serviceDetails p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
 
 
 
@@ -94,10 +135,16 @@
 
 @media screen and (max-width: 1200px) {
 
+    .serviceSection{
+
+        grid-template-areas: "a a";
+      }
 }
 
 /* === Mobile Navigation === */
 
 @media screen and (max-width: 600px) {
-    
+        .serviceSection{
+            grid-template-areas: "a";
+          }
 }
