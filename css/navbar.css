@@ -1,5 +1,16 @@
 
-
+.header{
+    background-color: #fff;
+    box-shadow: -10px -3px 80px 1px #48566430 ;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1; 
+}
+.headerDiv{
+    background: #fff;
+}
 .header .logo h2{
     font-weight: 300;  
 }
@@ -14,13 +25,14 @@
 
 .getStart{
     font-family: poppins, sans-serif;
-    padding: 10px 30px;
+    padding: 10px 10px !important;
     border-radius: 5px;
     background-color: #0ea2bd;
     font-size: 16px;
     color: #fff;
     border: none;
     align-items: center;
+    margin: 5px 5px;
 }
 .getStart:hover{
     background-color: #41adc0;
@@ -55,10 +67,14 @@
       background-color: #0ea2bd;
       color: #fff;
     }
-    .active{
+
+
+    .active1{
         background-color: #0ea2bd;
         color: #fff !important;
     }
+
+
     .dropdown ul{
       display: block;
       position: absolute;

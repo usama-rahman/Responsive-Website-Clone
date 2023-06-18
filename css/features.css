@@ -107,7 +107,7 @@
     .featuresIcon ul{
       width: 80%;
       display: grid;
-      grid-template-areas: "a a a";
+      grid-template-areas: "a a ";
       gap: 15px;
       margin: 0px;
       padding-left: 5px;
@@ -117,6 +117,7 @@
       position: relative;
       background-color: #fff;
       box-shadow: -10px -3px 80px 1px #48566430 ;
+      padding: 5px 6px;
     }
     .featuresIcon {
       width: 70%;

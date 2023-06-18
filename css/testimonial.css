@@ -1,0 +1,107 @@
+
+.carousel-indicators-btn button{
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 5px !important;
+}
+
+
+
+.testimonialArea{
+    background-image: linear-gradient(rgba(75, 75, 78, 0.716), rgba(37, 37, 45, 0.732)),url(../Image/testimonials-bg.jpg) !important;
+    background-size: cover;
+    background-position: center center;
+    transition: .3s;
+
+ 
+}
+.testimonial{
+    margin-top: 5%;
+}
+.testimonial1{
+    padding: 80px 0;    
+}
+.testimonial1 img{
+    width: 5%;
+    border-radius: 50%;
+    border: 10px solid #ffffff4d;
+    margin-bottom: 1%;
+}
+.testimonial1 h3{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.testimonial1 h4{
+    font-size: 14px;
+    color: #ffffff6d;
+    margin: 0 0 15px 0; 
+}
+.stars{
+    color: yellow;
+    margin-bottom: 2% ;
+}
+.testimonial1 p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-style: italic;
+}
+.testimonial1 p i{
+    font-size: 32px;
+    padding: 5px 5px;
+    color: #ffffff4a;
+    
+}
+
+.carousel-caption-edit{
+    /* position: absolute; */
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+
+
+
+/* === Desktop Navigation === */
+
+@media screen and (min-width: 1200px) {
+
+}
+
+/* === Tablet Navigation === */
+
+@media screen and (max-width: 1200px) {
+    .testimonial1 img{
+        width: 10%;
+        border: 5px solid #ffffff4d;
+        margin-bottom: 1%;
+    }
+
+}
+/* === Mobile Navigation === */
+
+@media screen and (max-width: 600px) {
+    .testimonial1 img{
+        width: 25%;
+        border: 5px solid #ffffff4d;
+        margin-bottom: 1%;
+    }
+    .testimonial1 p {
+        width: 80%;
+       
+      }
+
+}
+
+
+
+
