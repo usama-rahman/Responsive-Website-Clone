@@ -3,7 +3,7 @@
 
 <div align="center" width="50">
 
-<img src="https://giphy.com/embed/CrFLL3CnRpw5ddlBMm" alt="Welcome!" width="300"/>
+<iframe src="https://giphy.com/embed/CrFLL3CnRpw5ddlBMm" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/CleverCodeLab-cat-cute-coffee-CrFLL3CnRpw5ddlBMm"></a></p>
 
 </div>
 
