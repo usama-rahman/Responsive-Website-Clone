@@ -1,0 +1,28 @@
+.pricing{
+    margin: 2% 0;
+}
+.pricingArea{ 
+    display: grid;
+    justify-content: center;
+
+}
+.pricingContent{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.pricingContent h2{
+    font-size: 48px;
+    font-weight: 100;
+    color: #485664;
+    margin-bottom: 1%;
+}
+.pricingContent p{
+    color: #8f9fae;
+    width: 80%;
+}
+.pricingPlan{
+    display: flex;
+    justify-content: space-between;
+}

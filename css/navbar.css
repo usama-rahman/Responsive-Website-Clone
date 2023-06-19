@@ -20,11 +20,11 @@
 .header a{
     text-decoration: none;
     color: #acb2c8;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .getStart{
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 10px 10px !important;
     border-radius: 5px;
     background-color: #0ea2bd;

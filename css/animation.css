@@ -62,7 +62,7 @@
     padding: 20px 30px;
 }
 .avobeAboutUsItem p{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     line-height: 24px;
     font-size: 14px;
 }
@@ -99,7 +99,7 @@
         display: grid;
     }
     .animationContent{
-        font-family: poppins, sans-serif;
+        font-family: 'Poppins', sans-serif;
         color: #475766;
         display: grid;
         margin: auto;
@@ -135,7 +135,7 @@
         padding-top: 150px;
     }
     .animationContent{
-        font-family: poppins, sans-serif;
+        font-family: 'Poppins', sans-serif;
         color: #475766;
     }
     .animationContent h2{

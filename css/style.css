@@ -29,7 +29,7 @@
 
 
 .popins{
-    font-family: popins, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .primaryColor{
     color: #485664;
@@ -58,7 +58,7 @@
 }
 .customa{
     text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     color: #485664;
     font-size: 24px;
     font-weight: 400;
