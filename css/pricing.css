@@ -4,7 +4,6 @@
 .pricingArea{ 
     display: grid;
     justify-content: center;
-
 }
 .pricingContent{
     width: 80%;
@@ -20,9 +19,138 @@
 }
 .pricingContent p{
     color: #8f9fae;
-    width: 80%;
+    width: 80%; 
+    margin: auto;
+    text-align: center;
 }
 .pricingPlan{
     display: flex;
     justify-content: space-between;
+    margin: 20px 10px;
+}
+.pricingPlanItem{
+    display: grid;
+    font-family: 'Source Sans 3', sans-serif;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 80px 2px #48566430;
+    margin: 2px 10px;
+}
+.pricingHeader{
+    text-align: center;
+    background-image: linear-gradient(rgba(72,86,100,0.9),rgba(72,86,100,0.9)) ,url(../Image/pricing-bg.jpg);
+    background-size: cover;
+    padding: 30px 120px;
+    border-radius: 5px;
+
+ 
+}
+.pricingHeader h3{
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.pricingHeader h4{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 400;
+}
+.pricingHeader h4 sup{
+    font-size: 28px;
+    
+}
+.pricingHeader h4 span{
+    color: rgba(255,255,255, 0.6);
+    font-size: 24px;
+}
+
+
+.pricingPlanItem ul{
+    list-style: none;
+    margin: 10%;
+    padding: 0;
+}
+.pricingPlanItem ul li{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+
+}
+.pricingPlanItem ul li i{
+    font-size: .5rem;
+    padding-right: 20px;
+    color: #0ea2bd;
+}
+.fadeItem {
+    color: rgba(108, 117, 125, 0.5) !important;
+}
+.fadeItem span{
+    text-decoration: line-through;
+}
+.fadeItem i{
+    font-size: 18px !important; 
+    color: rgba(108, 117, 125, 0.5) !important;
+}   
+
+.pricingPlanItem button{
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 12% 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 3% 2%;
+    color: #0ea2bd;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #0ea2bd;
+}
+.pricingPlanItem button:hover{
+    background-color: #0ea2bd;
+    color: #fff;
+    transition: .3s;
+}
+
+.pricingPlanItem:nth-child(2) {
+    border-color: #0ea2bd;
+}
+.pricingPlanItem:nth-child(2) .pricingHeader{
+    border-radius: 0px;
+    background-image: linear-gradient(rgba(14,162,189,0.9),rgba(14,162,189,0.9)) ,url(../Image/pricing-bg.jpg);
+}
+.pricingPlanItem:nth-child(2) button{
+    background-color: #0ea2bd !important;
+    color: #fff;
+}
+
+/* === Desktop Navigation === */
+
+@media screen and (min-width: 1200px) {
+
+}
+
+/* === Tablet Navigation === */
+
+@media screen and (max-width: 1200px) {
+
+    .pricingPlan {
+        display: grid;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        
+        
+    }
+    .pricingPlanItem{
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+}
+
+/* === Mobile Navigation === */
+
+@media screen and (max-width: 600px) {
+    
 }
