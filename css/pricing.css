@@ -35,14 +35,16 @@
     border-radius: 5px;
     box-shadow: 10px 10px 80px 2px #48566430;
     margin: 2px 10px;
+    padding: 0px 20px;
 }
 .pricingHeader{
     text-align: center;
     background-image: linear-gradient(rgba(72,86,100,0.9),rgba(72,86,100,0.9)) ,url(../Image/pricing-bg.jpg);
     background-size: cover;
-    padding: 30px 120px;
+    padding: 40px;
     border-radius: 5px;
-
+    width: 113%;
+    margin: 0 -20px;
  
 }
 .pricingHeader h3{
@@ -67,8 +69,8 @@
 
 .pricingPlanItem ul{
     list-style: none;
-    margin: 10%;
-    padding: 0;
+    padding: 30px 50px;
+    text-align: left;
 }
 .pricingPlanItem ul li{
     display: flex;
@@ -138,13 +140,28 @@
         display: grid;
         width: 100%;
         margin: auto;
-        justify-content: center;
-        
-        
+        justify-content: center;   
     }
     .pricingPlanItem{
-        margin: 20px 0px;
+        display: block;
+        margin-top: 40px;
+        margin-left: -55%;
+        margin-right: -55%;
+        padding: 0;
+    }
+    .pricingHeader{
         width: 100%;
+        margin: 0 0px;
+     
+    }
+    .pricingPlanItem button{
+      
+        margin: 2% auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 10px 30px;
+
     }
 
 }
@@ -152,5 +169,16 @@
 /* === Mobile Navigation === */
 
 @media screen and (max-width: 600px) {
+    .pricingPlan {
+        display: grid;
+        width: 100%;
+        margin: auto;
+        justify-content: center;   
+    }
     
+    .pricingPlanItem{
+        display: block;
+        margin: 20px 10px;
+        padding: 0;
+    }
 }
