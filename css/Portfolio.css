@@ -8,7 +8,7 @@
     margin: auto;
     padding-top: 20px ;
 }
-.myProtfolio h3 , p{
+.myProtfolio h3 , .myProtfolio p{
     font-family: 'Source Sans 3', sans-serif;
     width: 60%;
     margin: auto;
@@ -84,7 +84,7 @@
         grid-template-areas:"a ";
         padding: 0 10px;
     }
-    .myProtfolio h3, p {
+    .myProtfolio h3, .myProtfolio p {
         width: 90%;
         margin: auto;
         text-align: center;
