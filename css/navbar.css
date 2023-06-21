@@ -1,8 +1,7 @@
-
 .header{
     background-color: #fff;
     box-shadow: -10px -3px 80px 1px #48566430 ;
-    overflow: hidden;
+
     position: fixed;
     top: 0;
     width: 100%;
@@ -43,6 +42,8 @@
 
     .navbar{
         position: relative;
+      
+
     }
     .navbar ul{
         margin: 0;
@@ -53,9 +54,11 @@
     }
     .navbar li{
         position: relative;
+      
     }
     .navbar a{
         position: relative;
+      
         display: flex;
         justify-content: space-between;
         align-items: center;
