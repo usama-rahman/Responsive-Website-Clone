@@ -1,0 +1,88 @@
+.mainFaq{
+    display: flex;
+    margin-top: 2%;
+    box-shadow: 10px 10px 80px 2px #48566430;
+    padding: 50px 0px;
+
+}
+.faqContent{
+    width: 60%;
+    padding: 0 4%;
+}
+.faqImage{
+    width: 40%;
+    display:block ;
+    overflow: hidden;
+    padding:  20px ;
+}
+.faqImage{
+    width: 40%;
+}
+.faqHeader h3{
+    color: #485664;
+    font-size: 34px;
+}
+.faqHeader h3 span{
+    font-weight: bold;
+}
+.faqHeader p{
+    color: #6c757d;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.faqArea button{
+    padding: 20px 0;
+    font-weight: 600;
+    margin: 20px 0;
+    border: 0;
+    font-size: 18px;
+    color: #1a1f24;
+    text-align: left;
+    
+}
+.buttonShadow{
+    box-shadow: 5px 5px 40px 2px #48566430;
+}
+.faqArea button i{
+    color: #0ea2bd;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* === Tablet Navigation === */
+
+@media screen and (max-width: 1200px) {
+    .mainFaq{
+        display: grid;
+        order: -1 !important;
+        margin-top: 2%;
+        box-shadow: 10px 10px 80px 2px #48566430;
+        padding: 0px 0px;
+        
+    
+    } 
+
+    .faqContent{
+        width: 100%;
+        padding: 2% 4%;
+    }
+    .faqImage{
+        width: 100%;
+        display:block ;
+        overflow: hidden;
+        padding:  0 ;
+    }
+    .faqImage img{
+        width: 100%;
+        display:block ;
+       
+        padding:  0px ;
+    }
+}
+
+/* === Mobile Navigation === */
+
+@media screen and (max-width: 600px) {
+    
+}
