@@ -1,0 +1,152 @@
+/* .ourTeamArea{
+    display: grid;
+    justify-content: center;
+} */
+.ourTeamContent{
+   text-align: center;
+   padding: 50px 0;
+   font-family: 'Source Sans 3', sans-serif;
+}
+.ourTeamContent h3{
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #485664;
+    margin-top: 80px;
+ }
+ .ourTeamContent p{
+    width: 50%;
+    margin: 0 auto;
+    color: #8f9fae;
+ }
+
+.ourTeamPic{
+    grid-template-areas:"a a a a";
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12%;
+}
+
+.teamMember{
+    width: 50%;
+    margin: 0 1%;
+    position: relative;
+    margin-bottom: 5%;
+}
+.memberImg img{
+    width: 100%;
+    margin: auto;
+    border-radius: 8px
+}
+
+.memberInfo{
+    width: 90%;
+    margin-top: -45px;
+    margin-left: 20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 40px 2px #48566430;
+}
+
+.memberSocialLink{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 30%;
+    opacity: 0; 
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.memberSocialLink:hover{
+    opacity: 1; 
+    transition: ease-in-out 0.3s;
+}
+.memberSocialLink a{
+    color: #fff;
+    background: #0ea2bd;
+    margin: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.memberSocialLink a i{
+    font-size: 16px;
+
+}
+
+.memberInfo h4{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #485664;  
+    font-family: 'Source Sans 3', sans-serif;
+}
+.memberInfo h5{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+
+ /* === Tablet Navigation === */
+
+ @media screen and (max-width: 1200px) {
+    .ourTeamContent p{
+        width: 80%;
+    }
+    .ourTeamPic{
+        display: grid;
+        grid-template-areas:"a a";
+        justify-content: space-between;
+        gap: 2%;
+        margin: 0 20px;
+    }
+    .teamMember{
+        width: 100%;
+        margin: 0 1%;
+        position: relative;
+        margin-bottom: 5%;
+    }
+    .memberSocialLink{
+        margin-top: -17px;
+        margin-left: 24%;
+        opacity: 1; 
+    }
+    
+ }
+
+/* === Mobile Navigation === */
+
+ @media screen and (max-width: 600px) {
+    .ourTeamPic{
+        display: grid;
+        grid-template-areas:"a";
+        justify-content: space-between;
+        gap: 2%;
+        margin: 0 20px;
+    }
+    .teamMember{
+        width: 100%;
+        margin: 0 1%;
+        position: relative;
+        margin-bottom: 5%;
+    }
+    .memberSocialLink{
+        margin-top: -17px;
+        margin-left: 24%;
+        opacity: 1; 
+    }
+ }
