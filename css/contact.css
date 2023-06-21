@@ -28,21 +28,22 @@
 .mainContactArea{
     display: flex;
     width: 70%;
-    margin: auto;
+    margin: 50px auto;
 
 
 }
 .contactInfo{
-    padding: 10px;
+    padding: 0px 10px;
     width: 30%;
-    border: 2px solid aquamarine;
+
 }
 .contactForm{
     width: 70%;
-    background-color: red;
+
 }
 .contactInfoArea{
     padding: 30px;
+    box-shadow: 5px 5px 40px 2px #48566430;
 }
 .contactInfoArea .getinTouch{
     font-family: 'Source Sans 3', sans-serif;
@@ -85,3 +86,78 @@
     font-size: 14px;
     color: #8f9fae;
 }
+
+
+.contactForm{
+    margin-left: 40px;
+
+
+}
+.formSubmit{
+    display: grid;
+}
+.nameAndEmailArea{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nameAndEmailArea input{
+    width: 48%;
+    padding: 10px 15px;
+    border: 1px solid #8f9fae70;
+}
+.inputSubject{
+    margin: 20px 0px;
+    padding: 10px 15px;
+    border: 1px solid #8f9fae70;
+}
+.formSubmit textarea{
+    padding: 10px 15px;
+    height: 300px;
+    border: 1px solid #8f9fae70;
+}
+.sendButton{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sendButton button{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 50px;
+    border: none;
+    background-color: #0ea2bd;
+    color: #fff;
+}
+
+ /* === Tablet Navigation === */
+
+ @media screen and (max-width: 1200px) {
+    .contactHeadingArea p {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+      .mainContactArea {
+        display: grid;
+        width: 100%;
+        margin: 50px 0;
+      }
+      .contactInfo {
+        padding: 0px 30px;
+        width: 100%;
+      }
+      .contactForm {
+        margin-left: 0px;
+        width: 100%;
+        padding: 30px 30px;
+      }
+ }
+
+/* === Mobile Navigation === */
+
+ @media screen and (max-width: 600px) {
+     
+ }
